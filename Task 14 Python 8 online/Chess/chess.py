@@ -1,11 +1,14 @@
 class ChessPiece:
+    WHITE = 'white'
+    BLACK = 'black'
+
     def __init__(self, name, color, position):
         self.name = name
         self.color = color
         self.position = position
 
     def change_color(self):
-        self.color = "black" if self.color == "white" else "white"
+        self.color = self.BLACK if self.color == self.WHITE else self.WHITE
 
     def change_position(self, changed_position):
         x, y = changed_position

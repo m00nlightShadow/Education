@@ -1,12 +1,7 @@
-from datetime import datetime
-import calendar
-from itertools import chain
+import utils
 
-'''Determining the number of days worked by employees since the beginning of the current month'''
-this_month = calendar.monthcalendar(2023, 8)
-days_passed_this_month = datetime.now().strftime('%d')
-work_days_list = list(chain.from_iterable(map(lambda date: date[0:5], this_month)))
-working_days = [date for date in range(1, int(days_passed_this_month) + 1) if date in work_days_list]
+YEAR = 2023
+MONTH = 8
 
 
 class Employee:
@@ -39,16 +34,16 @@ class Employee:
      or the calculation will be made for the number of working 
      days from the beginning of the current month'''
     def check_salary(self):
-        count_of_days = input(f'Нow many days to count for {self.name}?\n')
+        count_of_days = input(f"Нow many days to count for {self.name}'s salary?\n")
         if not count_of_days:
-            return f"{self.name}'s salary - {self.salary_per_day * len(working_days)}"
+            return f"{self.name}'s salary - {self.salary_per_day * len(utils.working_days(YEAR, MONTH))}"
         else:
             return f"{self.name}'s salary - {self.salary_per_day * int(count_of_days)}"
 
 
 class Developer(Employee):
-    def __init__(self, tech_stack: list, *args):
-        super().__init__(*args)
+    def __init__(self, name: str, salary_per_day: int, tech_stack: list):
+        super().__init__(name, salary_per_day)
         self.tech_stack = tech_stack
 
     def work(self):
@@ -74,22 +69,19 @@ class Developer(Employee):
             name = self.name + " " + other.name
             tech_stack = list(set(self.tech_stack + other.tech_stack))
             salary_per_day = max(self.salary_per_day, other.salary_per_day)
-            return Developer(tech_stack, name, salary_per_day)
+            return Developer(name, salary_per_day, tech_stack)
 
 
 class Recruiter(Employee):
-    def __init__(self, *args):
-        super().__init__(*args)
-
     def work(self):
         return 'I come to the office and start to hiring.'
 
 
-alex = Developer(['HTML', 'JavaScript', 'TypeScript', 'Django', 'Python'], 'Alex', 1000)
+alex = Developer('Alex', 1000, ['HTML', 'JavaScript', 'TypeScript', 'Django', 'Python'])
 tom = Recruiter('Tom', 200)
 jack = Recruiter('Jack', 100)
 terry = Recruiter('Terry', 150)
-jane = Developer(['HTML', 'CSS', 'JavaScript', 'TypeScript', 'SQL'], 'Jane', 1200)
+jane = Developer('Jane', 1200, ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'SQL'])
 new_developer = alex + jane
 
 # Team
@@ -111,6 +103,7 @@ print(tom.check_salary())
 print(jack.check_salary())
 print(terry.check_salary())
 print(jane.check_salary())
+print(alex.check_salary())
 
 # Adding developer Class
 print(new_developer.name)

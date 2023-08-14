@@ -1,11 +1,10 @@
 class Employee:
-
     def __init__(self, name: str, salary_per_day: int):
         self.name = name
         self.salary_per_day = salary_per_day
 
     def work(self):
-        return 'I come to the office.'
+        return 'I come to the office'
 
     def __str__(self):
         return f'{self.__class__.__name__}: {self.name}'
@@ -27,19 +26,15 @@ class Employee:
 
 
 class Developer(Employee):
-    def __init__(self, *args):
-        super().__init__(*args)
 
     def work(self):
-        return 'I come to the office and start to coding.'
+        return super().work() + ' and start to coding.'
 
 
 class Recruiter(Employee):
-    def __init__(self, *args):
-        super().__init__(*args)
 
     def work(self):
-        return 'I come to the office and start to hiring.'
+        return super().work() + ' and start to hiring.'
 
 
 alex = Developer('Alex', 1000)
@@ -58,3 +53,8 @@ print(alex > terry)
 print(jane > jack)
 print(jack >= tom)
 print(terry == jane)
+print(alex.work())
+print(tom.work())
+print(jack.work())
+print(terry.work())
+print(jane.work())
