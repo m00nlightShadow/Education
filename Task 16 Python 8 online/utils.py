@@ -2,6 +2,8 @@ from datetime import datetime
 import calendar
 from itertools import chain
 
+'''Function working_days returns list of days in month except weekends'''
+
 
 def working_days(year, month):
     this_month = calendar.monthcalendar(year, month)

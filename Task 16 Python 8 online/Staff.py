@@ -10,7 +10,7 @@ class Employee:
         self.salary_per_day = salary_per_day
 
     def work(self):
-        return 'I come to the office.'
+        return 'I come to the office'
 
     def __str__(self):
         return f'{self.__class__.__name__}: {self.name}'
@@ -47,7 +47,7 @@ class Developer(Employee):
         self.tech_stack = tech_stack
 
     def work(self):
-        return 'I come to the office and start to coding.'
+        return super().work() + ' and start to coding.'
 
     def __le__(self, other):
         return len(self.tech_stack) <= len(other.tech_stack)
@@ -74,7 +74,7 @@ class Developer(Employee):
 
 class Recruiter(Employee):
     def work(self):
-        return 'I come to the office and start to hiring.'
+        return super().work() + ' and start to hiring.'
 
 
 alex = Developer('Alex', 1000, ['HTML', 'JavaScript', 'TypeScript', 'Django', 'Python'])
