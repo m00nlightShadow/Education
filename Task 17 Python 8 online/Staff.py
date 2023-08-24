@@ -25,7 +25,7 @@ class Employee:
     def validate(self):
         with open("emails.csv", "r") as emails_csv:
             if self.email in emails_csv.read():
-                raise EmailAlreadyExistsException
+                raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
 
     def save_email(self):
         with open("emails.csv", "a") as emails_csv:
