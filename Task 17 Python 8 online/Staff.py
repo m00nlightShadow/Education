@@ -58,11 +58,11 @@ class Employee:
      or the calculation will be made for the number of working 
      days from the beginning of the current month'''
     def check_salary(self):
-        # count_of_days = input(f"Нow many days to count for {self.name}'s salary?\n")
-        # if not count_of_days:
-        return f"{self.name}'s salary - {self.salary_per_day * len(working_days(YEAR, MONTH))}"
-        # else:
-        #     return f"{self.name}'s salary - {self.salary_per_day * int(count_of_days)}"
+        count_of_days = input(f"Нow many days to count for {self.name}'s salary?\n")
+        if not count_of_days:
+            return f"{self.name}'s salary - {self.salary_per_day * len(working_days(YEAR, MONTH))}"
+        else:
+            return f"{self.name}'s salary - {self.salary_per_day * int(count_of_days)}"
 
 
 class Developer(Employee):

@@ -1,32 +1,32 @@
-2023-08-24 18:29:34.171922 | Traceback (most recent call last):
+2023-08-24 19:07:35.752331 | Traceback (most recent call last):
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 33, in save_email
     self.validate()
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 28, in validate
     raise EmailAlreadyExistsException
 exceptions.EmailAlreadyExistsException
  
-2023-08-24 18:29:34.174913 | Traceback (most recent call last):
+2023-08-24 19:07:35.755323 | Traceback (most recent call last):
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 33, in save_email
     self.validate()
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 28, in validate
     raise EmailAlreadyExistsException
 exceptions.EmailAlreadyExistsException
  
-2023-08-24 18:29:34.175911 | Traceback (most recent call last):
+2023-08-24 19:07:35.755323 | Traceback (most recent call last):
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 33, in save_email
     self.validate()
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 28, in validate
     raise EmailAlreadyExistsException
 exceptions.EmailAlreadyExistsException
  
-2023-08-24 18:29:34.177906 | Traceback (most recent call last):
+2023-08-24 19:07:35.758315 | Traceback (most recent call last):
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 33, in save_email
     self.validate()
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 28, in validate
     raise EmailAlreadyExistsException
 exceptions.EmailAlreadyExistsException
  
-2023-08-24 18:29:34.177906 | Traceback (most recent call last):
+2023-08-24 19:07:35.759312 | Traceback (most recent call last):
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 33, in save_email
     self.validate()
   File "E:\Education\Task 17 Python 8 online\Staff.py", line 28, in validate
