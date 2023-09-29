@@ -1,0 +1,952 @@
+2023-09-29 18:05:42.278912 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 31, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:05:42.280906 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 31, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:05:42.281903 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 31, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:05:42.281903 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 31, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:05:42.282901 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 31, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:07:00.358435 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:07:00.360429 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:07:00.360429 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:07:00.361427 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:07:00.361427 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:09:55.047241 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:09:55.048238 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:09:55.049236 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:09:55.049236 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:09:55.049236 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:10:18.767003 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:10:18.776976 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:11:08.625864 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:08.626861 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:08.626861 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:08.627858 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:08.627858 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:09.543915 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:11:11.759050 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:11:11.763039 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:11:40.246627 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:40.247625 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:40.248622 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:40.248622 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:40.248622 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:11:41.174184 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:11:43.366374 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:11:43.367372 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example already in file emails.csv
+ 
+2023-09-29 18:11:43.371361 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:13:59.330660 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:13:59.331658 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:13:59.332654 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:13:59.332654 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:13:59.332654 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:13:59.335647 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: existing@example.com already in file emails.csv
+ 
+2023-09-29 18:16:20.076325 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:16:20.077323 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:16:20.078320 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:16:20.078320 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:16:20.078320 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:16:21.008860 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:16:23.015043 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:16:23.015043 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:16:23.019031 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example already in file emails.csv
+ 
+2023-09-29 18:16:23.020029 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:18:12.286637 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:18:12.287635 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:18:12.287635 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:18:12.288632 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:18:12.288632 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:18:13.216177 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:18:16.229187 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:18:16.229187 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:18:16.233176 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example already in file emails.csv
+ 
+2023-09-29 18:18:16.234173 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:19:47.134636 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:19:47.135634 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:19:47.135634 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:19:47.136631 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:19:47.136631 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:19:47.137628 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:21:45.812068 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:21:45.813066 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:21:45.813066 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:21:45.814063 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:21:45.814063 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:21:45.815060 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john@example.com already in file emails.csv
+ 
+2023-09-29 18:42:12.112382 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:42:12.113380 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:42:12.114377 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:42:12.114377 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:42:12.115375 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:45:38.815810 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:45:38.816807 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:45:38.817804 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:45:38.817804 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:45:38.818801 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:45:38.823788 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john.doe@example.com already in file emails.csv
+ 
+2023-09-29 18:45:38.824785 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane.smith@example.com already in file emails.csv
+ 
+2023-09-29 18:45:38.824785 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: john.doe@example.com already in file emails.csv
+ 
+2023-09-29 18:45:38.825783 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane.smith@example.com already in file emails.csv
+ 
+2023-09-29 18:46:16.369606 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 18:46:16.369606 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 18:46:16.370603 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 18:46:16.370603 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:46:16.371601 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 18:46:16.374592 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: johndoe@example.com already in file emails.csv
+ 
+2023-09-29 18:46:16.375590 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: janesmith@example.com already in file emails.csv
+ 
+2023-09-29 18:46:16.376139 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: johndoe@example.com already in file emails.csv
+ 
+2023-09-29 18:46:16.376139 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 41, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: janesmith@example.com already in file emails.csv
+ 
+2023-09-29 19:00:46.479267 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 19:00:46.481262 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 19:00:46.481262 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 19:00:46.482260 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 19:00:46.482260 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 19:01:38.167105 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 19:01:38.169100 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 19:01:38.169100 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 19:01:38.170097 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 19:01:38.170097 | Traceback (most recent call last):
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\PycharmProjects\pythonProject1\OOP\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 19:52:02.263842 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 19:52:02.265837 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 19:52:02.266834 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 19:52:02.266834 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 19:52:02.266834 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 20:00:24.052396 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 20:00:24.053393 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 20:00:24.053393 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 20:00:24.054390 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 20:00:24.054390 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 20:09:10.988190 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 20:09:10.989187 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 20:09:10.989187 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 20:09:10.990184 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 20:09:10.990184 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 20:09:14.620472 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_1@example.com already in file emails.csv
+ 
+2023-09-29 20:09:14.620472 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_2@example.com already in file emails.csv
+ 
+2023-09-29 20:09:14.621469 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_1@example.com already in file emails.csv
+ 
+2023-09-29 20:09:14.621469 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_2@example.com already in file emails.csv
+ 
+2023-09-29 20:10:21.527470 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alex@gmail.com already in file emails.csv
+ 
+2023-09-29 20:10:21.527470 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: tom@gmail.com already in file emails.csv
+ 
+2023-09-29 20:10:21.528468 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jack@gmail.com already in file emails.csv
+ 
+2023-09-29 20:10:21.528468 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: jane@gmail.com already in file emails.csv
+ 
+2023-09-29 20:10:21.529465 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: alexjane@gmail.com already in file emails.csv
+ 
+2023-09-29 20:10:26.258811 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_1@example.com already in file emails.csv
+ 
+2023-09-29 20:10:26.259809 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_2@example.com already in file emails.csv
+ 
+2023-09-29 20:10:26.259809 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_1Name_2@example.com already in file emails.csv
+ 
+2023-09-29 20:10:26.260806 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_1@example.com already in file emails.csv
+ 
+2023-09-29 20:10:26.260806 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_2@example.com already in file emails.csv
+ 
+2023-09-29 20:10:26.261803 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_1@example.com already in file emails.csv
+ 
+2023-09-29 20:10:26.261803 | Traceback (most recent call last):
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 40, in save_email
+    self.validate()
+  File "E:\Education\Task 18, 19 Python 8 online\Staff.py", line 32, in validate
+    raise EmailAlreadyExistsException(f'{self.email} already in file emails.csv')
+exceptions.EmailAlreadyExistsException: Name_2@example.com already in file emails.csv
+ 

@@ -1,0 +1,6 @@
+class EmailAlreadyExistsException(Exception):
+    ...
+
+
+class EmailTypeError(Exception):
+    ...
