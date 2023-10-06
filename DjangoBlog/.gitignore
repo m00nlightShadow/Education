@@ -1,0 +1,11 @@
+/.env/
+__pycache__/
+/.idea
+*.sqlite3
+<<<<<<< HEAD
+*.db
+*.lock
+*.toml
+=======
+*.db
+>>>>>>> 3305e2f3f5dd8085cf9168f85a4a5ac02b907692
